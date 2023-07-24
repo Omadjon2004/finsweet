@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/blog.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light  ">
+        <div class="container-lg container-md">
+         <img src="./images/logos/navbar-logo.svg" alt="icon">
+         <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class=" collapse navbar-collapse  " id="navbarSupportedContent">
+            <ul class="navbar-nav me-lg-5 mb-2 mb-lg-0 ms-auto gap-4">
+              <li class="nav-item">
+                <a class="nav-link  text-light" aria-current="page" href="./index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light"  href="./category.html">Category</a>
+              </li>
+             
+              <li class="nav-item">
+                <a class="nav-link text-light" href="./about.html" tabindex="-1" aria-disabled="true">About Us</a>
+              </li>
+              <li class="nav-item ">
+                <a
+                  class="nav-link text-light"
+                  href="./blog.html"
+                  tabindex="-1"
+                  aria-disabled="true"
+                  >Blog post</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="./register.html" tabindex="-1" aria-disabled="true">Register</a>
+              </li>
+            </ul>
+            <a class="btn" href="./login.html">Login</a>
+          </div>
+        </div>
+      </nav>
+      <marquee
+      class="blink text-center"
+      width="100%"
+      height="25px"
+      behavior="sliding"
+      hspace="20"
+      scrollamount="20"
+      direction="right"
+      >Sayt test rejimida!!! Sayt test rejimida!!! Sayt test
+      rejimida!!!</marquee
+    >
+<section >
+  <div class="blog_post">
+    <div class=" container">
+     
+     <form  class="add_post ">
+      <input type="hidden" name="updated">
+      <label class="text-danger" for="information">About yourself:</label>
+      <input  type="text" id="information" name="aboutinfo">
+      <br>
+      <label class="text-danger" for="topic_title">What is it about</label>
+      <input type="text" id="topic_title" name="title">
+      <br>
+      <label class="text-danger" for="image_url">Image url</label>
+      <input type="text" id="image_url">
+      <br>
+      <label for="postInfo"></label>
+      <textarea placeholder="More info" class="p-4 text-black-50" name="post_info" id="postInfo" cols="40" rows="10"></textarea>
+      <br>
+      <button class="post_btn" type="submit">Save</button>
+     </form>
+  
+  </div>
+  
+</section>
+
+<footer>
+  <div class="footer">
+      <div class="container container-lg container-md">
+<div class=" text-center align-items-center d-lg-flex d-md-flex d-sm-block d-block justify-content-between justify-content-lg-between justify-content-md-between" >
+<p class="footer_text">Finstreet 118 2561 Fintown <br>
+  <span>Hello@finsweet.com  020 7993 2905</span>
+</p>
+<div class="logos d-flex justify-content-around justify-content-sm-around gap-3">
+ <a  class="icons" target="_blank" href="https://www.facebook.com/"><img src="./images/logos/Facebook.svg" alt="#"></a>
+ <a class="icons"target="_blank" href="https://www.twitter.com/"><img src="./images/logos/Twitter.svg" alt="#"></a>
+ <a class="icons"target="_blank" href="https://www.instagram.com/"><img src="./images/logos/instagram.svg" alt="#"></a>
+ <a class="icons"target="_blank" href="https://www.linkedin.com/"><img src="./images/logos/linkedin.svg" alt="#"></a>
+  
+</div>
+</div>
+
+      </div>
+  </div>
+</footer>
+      <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
+      <script src="./js/blog.js"></script>
+      <script src="./js/script.js"></script>
+</body>
+</html>

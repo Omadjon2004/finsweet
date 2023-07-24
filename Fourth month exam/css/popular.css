@@ -1,0 +1,51 @@
+*{
+    cursor: pointer;
+}
+.popular_blogs{
+    padding: 92px 0 66px 0;
+   border-bottom: 1px solid #6D6E76 ;
+}
+.blogs_title{
+    font-family: 'Sen';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 48px;
+letter-spacing: -2px;
+color: #000000;
+}
+
+.card-img-top{
+border: none;
+border-radius: 0;
+width: 100%;
+height: 318px;
+}
+.blogs_card{
+    border-radius: 0;
+    border: none;
+    text-align: left;
+    max-width: 405px ; 
+}
+.blogs_card:hover{
+    transform: scale(1.05,1.06);
+    transition: .3s;
+}
+.blogs_card-span{
+    color: #000000;
+   
+}
+.card-body{
+    padding: 0;
+}
+.blogs_card-title{
+    text-align: left;
+    font-weight: 700;
+font-size: 28px;
+line-height: 40px;
+letter-spacing: -1px;
+color: #232536;
+}
+.blogs_card-text{
+    color: #000000;
+}

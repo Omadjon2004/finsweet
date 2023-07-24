@@ -1,0 +1,140 @@
+*{
+    cursor: pointer;
+}
+.login_here{
+    padding: 10% 0 40% 0;
+
+}
+.login_title{
+    font-family: 'Sen';
+font-weight: 700;
+font-size: 48px;
+line-height: 64px;
+text-align: center;
+letter-spacing: -2px;
+color: #232536;
+}
+.user{
+    width: 60%;
+height: 76px;
+padding: 0 0 0 25px;
+border: 2px solid#6D6E76;
+}
+.login_input{
+    font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+color: #232536;
+}
+.login_input:focus{
+    background: #50e5ff9a;
+    border: 4px solid greenyellow;
+    color: rgb(0, 0, 0);
+    font-size: 32px;
+    font-weight: 700px;
+}
+
+.login_input:hover{
+    box-shadow: 2px 1px 8px 0px rgba(34, 60, 80, 0.2);
+transform: scale(1.02, 1.1);
+transition: 0.3s;
+}
+.register_input{
+    font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+color: #232536; 
+}
+.register_input:focus{
+    background: #50e5ff9a;
+    border: 4px solid greenyellow;
+    color: rgb(0, 0, 0);
+    font-size: 32px;
+    font-weight: 700px;  
+}
+.register_input:hover{
+    box-shadow: 2px 1px 8px 0px rgba(34, 60, 80, 0.2);
+    transform: scale(1.02, 1.1);
+    transition: 0.3s;
+}
+.register_btn{
+    width: 60%;
+    height: 64px;
+    background: #FFD050;
+    font-family: 'Sen';
+font-weight: 700;
+font-size: 24px;
+line-height: 32px;
+color: #232536;
+}
+.register_btn:hover{
+    box-shadow: 2px 1px 8px 0px rgba(34, 60, 80, 0.2);
+transform: scale(1.02, 1.1);
+transition: 0.3s;
+}
+.login_btn{
+    width: 60%;
+    height: 64px;
+    background: #FFD050;
+    font-family: 'Sen';
+font-weight: 700;
+font-size: 24px;
+line-height: 32px;
+color: #232536;   
+}
+.login_btn:hover{
+    box-shadow: 2px 1px 8px 0px rgba(34, 60, 80, 0.2);
+transform: scale(1.02, 1.1);
+transition: 0.3s; 
+}
+@media (max-width:992px){
+    .user{
+        width: 100%;
+    } 
+    
+    .register_btn{
+        width: 100%;
+    }
+    .login_btn{
+        width: 100%;
+    }
+}
+@media (max-width:576px){
+    .user{
+        width: 100%;
+    } 
+    
+    .register_btn{
+        width: 100%;
+    }
+    .login_btn{
+        width: 100%;
+    }
+}
+.registerSpan{
+    color: aqua;
+    display: block;
+}
+.register_span{
+    display: block;
+    color: aqua;
+}
+.danger{
+    box-shadow: 1px 1px 5px 4px rgba(217, 42, 127, 0.221);
+    transition: 0.3s;
+    border: 2px solid red;
+}
+.success{
+    box-shadow: 1px 1px 5px 4px rgba(45, 159, 85, 0.416);
+    transition: 0.3s;
+    border: 2px solid rgb(43, 255, 0);   
+}
+.active{
+    background: red;
+    color: white;
+    transform: scale(1.1 , 1.2);
+}
+.login_span{
+    display: block;
+    color: aqua;
+}

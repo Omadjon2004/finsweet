@@ -1,0 +1,64 @@
+.category_types{
+    padding: 69px 0 73px 0;
+}
+.types_title{
+    font-weight: 700;
+font-size: 36px;
+line-height: 48px;
+letter-spacing: -2px;
+color: #232536;
+}
+.types_card{
+    padding: 32px;
+    box-shadow: 2px 1px 8px 0px rgba(34, 60, 80, 0.2);
+    text-align: left;
+}
+.types_card:hover{
+    transform: scale(1.05,1.06);
+    transition: .3s; 
+    background: #FFD050;
+}
+.box{
+    width: 48px;
+    height: 47px;
+    padding: 2px;
+    background-image:url(../images/logos/Icon.svg);
+    background-position: center;
+    background-repeat:no-repeat ;
+    background-size:auto;
+    position: relative;
+    z-index: 10;
+    background-color: #ffffff;
+}
+.box:hover{
+background-color: #ffffff;
+}
+.box1{
+
+    background-image:url(../images/logos/shuttle.svg);
+
+}
+.box2{
+    
+    background-image:url(../images/logos/Diagram.svg);
+   
+}
+.box3{
+   
+    background-image:url(../images/logos/cyborg.svg);
+    
+}
+.card-title {
+    font-family: 'Sen';
+font-weight: 700;
+font-size: 28px;
+line-height: 40px;
+letter-spacing: -1px;
+color: #232536;
+}
+.card-text{
+    font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+color: #6D6E76;
+}
